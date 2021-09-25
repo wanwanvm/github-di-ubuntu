@@ -1,0 +1,32 @@
+#lakukan update terlebih dahulu
+apt-get install git
+
+#perintah menginstall git
+sudo apt-get install git
+================================================================================
+masuk ke halaman github anda 
+https://github.com/settings/tokens
+buatlah Personal access tokens dengan mengeklik tombol #generate new token #
+kemudian simpan lah token tersebut
+=================================================================================
+
+buatlah repository baru
+https://github.com/new
+
+lakukan di terminal ubuntu
+
+masuklah ke folder yang akan di push ke github
+lakukan perintah 
+echo "# coba" >> README.md
+
+git init
+git add .
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/nama user anda/nama repository and.git
+git push -u origin main
+
+kemudian refress githup anda harus nya sudah masuk
+
+==============================mis======================================
