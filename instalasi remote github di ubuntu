@@ -30,3 +30,6 @@ git push -u origin main
 kemudian refress githup anda harus nya sudah masuk
 
 ==============================mis======================================
+untuk menghapus init yang sudah pernah dimasukan
+rm -rf .git
+=========================================================
